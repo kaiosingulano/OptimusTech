@@ -1,0 +1,71 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 4em;
+    align-items: center;
+}
+
+.cabecalho__logo {
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+    padding: 0.8em 1.0em;
+}
+
+.cabecalho__nome {
+    text-decoration: none;
+    color: var(--cinza-terciario);
+    font-size: 18px;
+}
+
+.cabecalho__navegadores {
+    display: flex;
+    margin: 0 auto 0 6em;
+}
+
+.cabecalho__link {
+    color: var(--cinza-texto);
+    text-decoration: none;
+    padding: 0.8em 1.0em;
+}
+
+.cabecalho__botoes {
+    display: flex;
+    gap: 2.2em;
+    align-items: center;
+}
+
+.cabecalho__entrar {
+    text-decoration: none;
+    color: var(--cinza-texto);
+    padding: 0.8em 1.2em;
+}
+
+.cabecalho__cadastrar {
+    text-decoration: none;
+    color: var(--branco-fundo);
+    background-color: var(--vermelho);
+    padding: 0.8em 1.2em;
+    border-radius: 5px;
+}
+
+.cabecalho__cadastrar:hover {
+    background-color: var(--hover);
+}
+
+.cabecalho__link:hover, .cabecalho__entrar:hover {
+    color: var(--branco-fundo);
+    background-color: var(--hover);
+    padding: 0.8em 1.0em;
+    border-radius: 5px;
+}
+
+.cabecalho__logo:hover>.cabecalho__nome {
+    color: var(--branco-fundo);
+}
+
+.cabecalho__logo:hover {
+    background-color: var(--cinza-terciario);
+    padding: 0.8em 1.0em;
+    border-radius: 5px;
+}

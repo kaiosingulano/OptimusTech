@@ -1,0 +1,30 @@
+.depoimento {
+    text-align: center;
+    width: 80vw;
+    background-color: rgb(250, 250, 245);
+    padding: 4em 2em;
+    margin: 6em auto 7em;
+}
+
+.depoimento__anuncio {
+    color: var(--vermelho);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.depoimento__defato {
+    font-size: 36px;
+    color: var(--azul-marinho);
+    margin: 1em 0;
+}
+
+.depoimento__nome {
+    color: var(--azul-marinho);
+    margin: 0.5em 0;
+}
+
+.depoimento__funcao {
+    color: var(--cinza-texto);
+    font-weight: 400;
+    font-size: 14px;
+}

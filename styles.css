@@ -1,0 +1,35 @@
+@import url(styles/header.css);
+@import url(styles/abertura.css);
+@import url(styles/dados.css);
+@import url(styles/vagas.css);
+@import url(styles/cargos.css);
+@import url(styles/depoimento.css);
+@import url(styles/contato.css);
+
+:root {
+    --branco-fundo: #FFFFFF;
+    --preto: #000000;
+    --cinza-texto: #667085;
+    --cinza-secundario: #98a2b3;
+    --cinza-terciario: #3a404e;
+    --vermelho: #8e2424;
+    --azul-marinho: #101828;
+    --hover: darkred;
+    --cinza-claro: #eaecf0;
+    --fonte-principal: "Inter", sans-serif;
+}
+
+body {
+    background-color: var(--branco-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--preto);
+}
+
+.rodape {
+    color: var(--cinza-secundario);
+    font-weight: 400;
+    text-align: center;
+    margin: 2em 0 4em;
+}

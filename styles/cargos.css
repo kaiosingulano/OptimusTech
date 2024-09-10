@@ -1,0 +1,33 @@
+.cargos {
+    width: 55vw;
+    margin: auto;
+}
+
+.cargos__area {
+    font-size: 20px;
+    color: var(--azul-marinho);
+    margin: 2em 0;
+}
+
+.cargos__container {
+    border: 1px solid var(--cinza-claro);
+    padding: 1.5em 1.3em;
+    border-radius: 8px;
+    margin: 1em 0;
+}
+
+.cargos__nome {
+    font-size: 18px;
+    color: var(--azul-marinho);
+    margin-bottom: 2em;
+}
+
+.cargos__condicoes {
+    display: flex;
+    color: var(--cinza-texto);
+    gap: 2em;
+}
+
+.cargos__espaco {
+    padding-top: 2em;
+}

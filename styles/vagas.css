@@ -1,0 +1,27 @@
+.vagas {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    margin: 6em 6em 4em
+}
+
+.vagas__anuncio {
+    color: var(--vermelho);
+    font-size: 14px;
+}
+
+.vagas__titulo {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.vagas__descricao {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza-texto);
+}
+
+.vagas__imagem {
+    margin-top: 1.5em;
+}

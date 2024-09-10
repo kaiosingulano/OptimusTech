@@ -1,0 +1,27 @@
+.dados {
+    margin: 0 4em;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.dados__lista {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.dados__numero {
+    font-size: 60px;
+    color: var(--vermelho);
+    font-weight: 600;
+}
+
+.dados__coisa {
+    font-size: 18px;
+    margin: 1em 0 0.5em;
+}
+
+.dados__descricao {
+    font-weight: 400;
+    color: var(--cinza-texto);
+}
